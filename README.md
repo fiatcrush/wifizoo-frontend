@@ -4,7 +4,7 @@ HTML & CSS front end web interface for Wifizoo 1.3. Please see the screenshots f
 
 ### Installation of the Web Interface
 
-* Place the folder "webgui" in your Wifizoo 1.3 Folder and click on "index.html" 
+* Place the folder "webgui" in your Wifizoo 1.3 folder and click on "index.html" contained within. 
 * You need a running instance of Wifizoo 1.3 for the web interace to work. 
 
 ### What is Wifizoo 1.3
