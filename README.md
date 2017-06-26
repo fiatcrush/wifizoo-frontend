@@ -1,13 +1,10 @@
-## Wifizoo Front-end Web Interface
+## Wifizoo Front-End Web Interface
 
-HTML & CSS front end web interface for Wifizoo 1.3. Please see the screenshots forlder for an idea of how it should look. 
-
-Another version is hosted on Packet Storm here: https://packetstormsecurity.com/files/favorite/67931/
+HTML & CSS front end web interface for Wifizoo 1.3. Please see the screenshots forlder for an idea of how it should look. Another version is hosted on Packet Storm here: https://packetstormsecurity.com/files/favorite/67931/
 
 ### Installation of the Web Interface
 
 * Place the folder "webgui" in your Wifizoo 1.3 Folder and click on "index.html" 
-* Within that file to open the gui 
 * You need a running instance of Wifizoo 1.3 for the web interace to work. 
 
 ### What is Wifizoo 1.3
@@ -20,6 +17,6 @@ Wifizoo is similar to dsniff but for pentesting wireless networks. One interesti
 
 Of course in order to use this tool you will need a wireless card that is capable of running in monitor mode to capture the data. And at this point you will also need to run kismet or airodump-ng to manage the card. You can see a list of some supported cards and drivers for Backtrack that will be compaitable here at backtrack's HCL.
 
-### How do i run Wifizoo 1.3?
+### How do I run Wifizoo 1.3?
 
 To use this tool you need to run kismet or airodump-ng in channel hopping mode and leave that running. Then move into the extracted wifizoo folder and run the command python wifizoo.py -i ath0 where "ath0" is your interface or vap. Or you can run it against a standard capture file with the -c option. Then simply point your browser at: http://127.0.0.1:8000.
